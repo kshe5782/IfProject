@@ -30,7 +30,7 @@ public class Controller
 		int count = 0;
 
 		while (!isDone)
-			 // Test the variable
+		// Test the variable
 		{
 			JOptionPane.showMessageDialog(null, "blah blah blah");
 			// Eventually change the loop variable
@@ -45,8 +45,11 @@ public class Controller
 		{
 			JOptionPane.showMessageDialog(null, "The loop value is : " + loop);
 		}
+	}
 
-		// private void askUser()
-		 
+	private void askUser()
+	{
+		JOptionPane.showInputDialog(null, "Favorite Hockey Team?");
+		
 	}
 }
