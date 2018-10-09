@@ -47,9 +47,8 @@ public class Controller
 		}
 	}
 
-	private void askUser()
-	{
-		JOptionPane.showInputDialog(null, "Favorite Hockey Team?");
-		
+
+
+	{	
 	}
 }
